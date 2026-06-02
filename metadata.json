@@ -1,0 +1,6 @@
+{
+  "name": "Zapphaire Events",
+  "description": "Premium event planning and corporate event management in Lagos, Nigeria. Creating unforgettable, beautifully executed luxury event experiences with modern coordination, venue styling, and vendor management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

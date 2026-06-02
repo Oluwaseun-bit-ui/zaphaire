@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-purple: #4B2C5E;
+  --color-brand-gold: #C5A059;
+  --color-brand-beige: #F9F6F0;
+  --color-brand-dark: #1A1A1A;
+}
+
+/* Base scroll snap behavior and soft focus states */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #C5A059;
+  color: #1A1A1A;
+}
+
